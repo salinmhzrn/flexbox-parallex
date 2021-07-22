@@ -1,0 +1,120 @@
+body{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  /* first image */
+  .img1 {
+      width: 100vw;
+      height: 100vh;
+    background-image: url("lighting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .sec1{
+    background: black;
+    padding: 2rem;
+
+  }
+
+  /* hero section */
+  .hero{
+      background-color: rgb(179, 59, 59);
+      padding: 4rem;
+      width: 60%;
+  }
+ 
+  /* animating */
+
+  .down-arrow{
+      font-size: 100px;
+      font-weight: bolder;
+      position: absolute;
+      color: red;
+     bottom: 10px;
+     animation:bounce 1000ms infinite ease-in-out ;
+
+  }
+ 
+  @keyframes bounce {
+      0% {
+        bottom: 100px;
+      }
+      100% {
+
+        bottom: 10px;
+        color: yellow;
+      }
+      
+  }
+ 
+
+
+  .img2, .img3{
+    width: 100vw;
+    height: 100vh;
+
+  background-image: url("tex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  
+
+  /* section */
+  .sec2, .sec3, .sec4
+  {
+      background: black;
+      color: white;
+      padding: 2rem;
+
+
+  }
+  
+    
+
+  .title{
+      background-color: black;
+      opacity: 0.5;
+      padding: 20px 50px;
+      color: white;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 1rem;
+
+  }
+  .img1, .img2, .img3{
+      background-attachment: fixed;
+  }
+
+
+
+
+  
+.img4 {
+    width: 100vw;
+    height: 100vh;
+  background-image: url("img_lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ 
